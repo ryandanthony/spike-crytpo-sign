@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spike.CryptoSign", "Spike.CryptoSign\Spike.CryptoSign.csproj", "{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.CryptoSign.Cli", "Spike.CryptoSign.Cli\Spike.CryptoSign.Cli.csproj", "{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Release|x64.Build.0 = Release|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{4403B144-2A2A-4F9D-9AA3-34BB2381A5A1}.Release|x86.Build.0 = Release|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Debug|x64.Build.0 = Debug|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Debug|x86.Build.0 = Debug|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Release|x64.ActiveCfg = Release|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Release|x64.Build.0 = Release|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B439A25-85C3-4177-BDC9-EF75C0AF0A2E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {514BF8AF-4FDE-43BF-807D-9D677F113FC0}
+	EndGlobalSection
+EndGlobal
