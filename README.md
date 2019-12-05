@@ -20,5 +20,5 @@ openssl pkcs12 -in public.crt -inkey private.key -export -out fullkey.pfx -passo
 ```
 ### running
 ``` bash
-dotnet Spike.CryptoSign.Cli Test  -Text "coding is fun" -FullKey C:/code/certs/cryptosign/fullkey.pfx -PublicKey C:/code/certs/cryptosign/public.crt
+dotnet Spike.CryptoSign.Cli.dll Test  -Text "coding is fun" -FullKey C:/code/certs/cryptosign/fullkey.pfx -PublicKey C:/code/certs/cryptosign/public.crt
 ```
