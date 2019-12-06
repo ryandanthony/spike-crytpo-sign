@@ -36,9 +36,14 @@ namespace Spike.CryptoSign.Cli
             var text = args.Text;
             var payload = encoding.GetBytes(text);
             var data = new MemoryStream(payload);
+            
+            data.Seek(0, SeekOrigin.Begin);
             var signature = fullKey.Sign(data);
-            var signatureString = System.Convert.ToBase64String(signature); 
+            
+            var signatureString = System.Convert.ToBase64String(signature);
+            data.Seek(0, SeekOrigin.Begin);
             var verifiedWithFullKey = fullKey.Verify(data, signature);
+            data.Seek(0, SeekOrigin.Begin);
             var verifiedWithPublicKey = publicKey.Verify(data, signature);
 
             Console.WriteLine(
