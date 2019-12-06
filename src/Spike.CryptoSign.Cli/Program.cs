@@ -35,11 +35,11 @@ namespace Spike.CryptoSign.Cli
             var encoding = new UnicodeEncoding();
             var text = args.Text;
             var payload = encoding.GetBytes(text);
-
-            var signature = fullKey.Sign(payload);
+            var data = new MemoryStream(payload);
+            var signature = fullKey.Sign(data);
             var signatureString = System.Convert.ToBase64String(signature); 
-            var verifiedWithFullKey = fullKey.Verify(payload, signature);
-            var verifiedWithPublicKey = publicKey.Verify(payload, signature);
+            var verifiedWithFullKey = fullKey.Verify(data, signature);
+            var verifiedWithPublicKey = publicKey.Verify(data, signature);
 
             Console.WriteLine(
                 $"verifiedWithFullKey: {verifiedWithFullKey},verifiedWithPublicKey: {verifiedWithPublicKey}");
